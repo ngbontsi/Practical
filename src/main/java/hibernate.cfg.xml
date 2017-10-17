@@ -14,5 +14,7 @@
         <property name="format_sql">true</property>
         <property name="hbm2ddl.auto">update </property>
         <mapping class="com.bontsi.models.User" />
+        <mapping class="com.bontsi.models.Address" />
+        <mapping class="com.bontsi.models.Branch" />
     </session-factory>
 </hibernate-configuration>
